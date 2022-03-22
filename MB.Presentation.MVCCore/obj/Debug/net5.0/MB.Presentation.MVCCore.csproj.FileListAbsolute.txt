@@ -89,3 +89,4 @@ D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Prese
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Core.dll
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Core.pdb
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\List.cshtml.g.cs
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Create.cshtml.g.cs
