@@ -1,0 +1,12 @@
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.deps.json
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csproj.AssemblyReference.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfoInputs.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfo.cs
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\refint\MB.Application.Contracts.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\ref\MB.Application.Contracts.dll

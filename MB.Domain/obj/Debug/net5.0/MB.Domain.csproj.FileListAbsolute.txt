@@ -1,0 +1,15 @@
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.deps.json
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.AssemblyReference.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfoInputs.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfo.cs
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CoreCompileInputs.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\refint\MB.Domain.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\ref\MB.Domain.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete
