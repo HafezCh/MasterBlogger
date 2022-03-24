@@ -1,0 +1,62 @@
+﻿@page "{id:int}"
+@model MB.Presentation.MVCCore.Areas.Administrator.Pages.ArticleManagement.EditModel
+@{
+}
+
+<div class="card">
+	<div class="card-header">
+		<h2>Edit Article: @Model.Article.Title</h2>
+	</div>
+	<div class="card-body">
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<input type="hidden" asp-for="Article.Id" />
+
+					<div class="col-md-6 col-sm-12">
+						<div class="form-group">
+							<label asp-for="Article.Title" class="control-label">Title:</label>
+							<input class="form-control" asp-for="Article.Title" />
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-sm-12">
+						<div class="form-group">
+							<label asp-for="Article.ShortDescription" class="control-label">Short Description:</label>
+							<textarea class="form-control" rows="3" asp-for="Article.ShortDescription"></textarea>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-sm-12">
+						<div class="form-group">
+							<label asp-for="Article.Image" class="control-label">Image:</label>
+							<input class="form-control" asp-for="Article.Image" />
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-sm-12">
+						<div class="form-group">
+							<label asp-for="Article.Content" class="control-label">Content:</label>
+							<textarea class="form-control" rows="5" asp-for="Article.Content"></textarea>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-sm-12">
+						<div class="form-group">
+							<label asp-for="Article.ArticleCategoryId" class="control-label">Image:</label>
+							<select class="form-control" asp-items="Model.ArticleCategories" asp-for="Article.ArticleCategoryId">
+							<option value="0"></option>
+								</select>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<input type="submit" value="Edit" class="btn btn-warning" />
+						<a class="btn btn-dark" asp-page="./List" asp-area="Administrator">Back to list</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
