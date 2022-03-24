@@ -1,5 +1,6 @@
 ﻿using MB.Application.Contracts.Article;
 using System.Collections.Generic;
+using System.Linq;
 using MB.Domain.ArticleAgg;
 
 namespace MB.Application
@@ -11,6 +12,13 @@ namespace MB.Application
         public ArticleApplication(IArticleRepository articleRepository)
         {
             _articleRepository = articleRepository;
+        }
+
+        public void Activate(int id)
+        {
+            var article = _articleRepository.Get(id);
+            article.Activate();
+            _articleRepository.Save();
         }
 
         public void Create(CreateArticle command)
@@ -46,7 +54,14 @@ namespace MB.Application
 
         public List<ArticleViewModel> GetList()
         {
-            return _articleRepository.GetList();
+            return _articleRepository.GetList().ToList();
+        }
+
+        public void Remove(int id)
+        {
+            var article = _articleRepository.Get(id);
+            article.Remove();
+            _articleRepository.Save();
         }
     }
 }

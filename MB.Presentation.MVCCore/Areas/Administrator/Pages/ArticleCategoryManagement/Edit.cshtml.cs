@@ -20,10 +20,10 @@ namespace MB.Presentation.MVCCore.Areas.Administrator.Pages.ArticleCategoryManag
             ArticleCategory = _articleCategoryApplication.Get(id);
         }
 
-        public IActionResult OnPost()
+        public RedirectToPageResult OnPost()
         {
             _articleCategoryApplication.Rename(ArticleCategory);
-            return Page();
+            return RedirectToPage("./List");
         }
     }
 }
