@@ -15,6 +15,20 @@ namespace MB.Infrastructure.Query
             _context = context;
         }
 
+        public ArticleQueryView GetArticle(int id)
+        {
+            return _context.Articles.Include(x => x.ArticleCategory).Select(x => new ArticleQueryView
+            {
+                Id = x.Id,
+                Title = x.Title,
+                ArticleCategory = x.ArticleCategory.Title,
+                ShortDescription = x.ShortDescription,
+                CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
+                Image = x.Image,
+                Content = x.Content
+            }).AsNoTracking().FirstOrDefault(x=>x.Id == id);
+        }
+
         public List<ArticleQueryView> GetArticles()
         {
             return _context.Articles.Include(x => x.ArticleCategory).Select(x => new ArticleQueryView
@@ -25,7 +39,7 @@ namespace MB.Infrastructure.Query
                 ShortDescription = x.ShortDescription,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
                 Image = x.Image
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
     }
 }

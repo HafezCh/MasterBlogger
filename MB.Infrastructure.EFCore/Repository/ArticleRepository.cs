@@ -41,7 +41,7 @@ namespace MB.Infrastructure.EFCore.Repository
                 ArticleCategory = x.ArticleCategory.Title,
                 IsDeleted = x.IsDeleted,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
         public void Save()
