@@ -10,6 +10,7 @@
         "dependencies": {
           "MB.Application": "1.0.0",
           "MB.Infrastructure.EFCore": "1.0.0",
+          "MB.Infrastructure.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -1072,6 +1073,14 @@
         "runtime": {
           "MB.Infrastructure.EFCore.dll": {}
         }
+      },
+      "MB.Infrastructure.Query/1.0.0": {
+        "dependencies": {
+          "MB.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "MB.Infrastructure.Query.dll": {}
+        }
       }
     }
   },
@@ -1755,6 +1764,11 @@
       "sha512": ""
     },
     "MB.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MB.Infrastructure.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

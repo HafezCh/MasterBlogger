@@ -46,11 +46,9 @@ namespace MB.Domain.ArticleAgg
         }
 
         public void Edit(string title, string shortDescription, string image
-            , string content, int articleCategoryId, IArticleValidatorService validatorService)
+            , string content, int articleCategoryId)
         {
             Validate(title,articleCategoryId);
-
-            validatorService.CheckThatThisRecordAlreadyExists(title);
 
             Title = title;
             ShortDescription = shortDescription;

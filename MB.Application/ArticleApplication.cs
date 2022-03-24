@@ -36,7 +36,7 @@ namespace MB.Application
         {
             var article = _articleRepository.Get(command.Id);
             article.Edit(command.Title, command.ShortDescription, command.Image
-                , command.Content, command.ArticleCategoryId, _articleValidatorService);
+                , command.Content, command.ArticleCategoryId);
             _articleRepository.Save();
         }
 

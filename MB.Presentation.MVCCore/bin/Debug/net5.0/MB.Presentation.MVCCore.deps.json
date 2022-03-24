@@ -1360,6 +1360,7 @@
         "dependencies": {
           "MB.Application": "1.0.0",
           "MB.Infrastructure.EFCore": "1.0.0",
+          "MB.Infrastructure.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -1380,6 +1381,17 @@
         },
         "compile": {
           "MB.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "MB.Infrastructure.Query/1.0.0": {
+        "dependencies": {
+          "MB.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "MB.Infrastructure.Query.dll": {}
+        },
+        "compile": {
+          "MB.Infrastructure.Query.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3770,6 +3782,11 @@
       "sha512": ""
     },
     "MB.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MB.Infrastructure.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
