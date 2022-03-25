@@ -38,7 +38,8 @@ namespace MB.Infrastructure.Query
                 ArticleCategory = x.ArticleCategory.Title,
                 ShortDescription = x.ShortDescription,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
-                Image = x.Image
+                Image = x.Image,
+                IsDeleted = x.IsDeleted
             }).AsNoTracking().ToList();
         }
     }
