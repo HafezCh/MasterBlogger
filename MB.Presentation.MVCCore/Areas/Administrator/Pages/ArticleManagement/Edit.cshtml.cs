@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Linq;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
-using MB.Domain.ArticleAgg;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -26,7 +25,7 @@ namespace MB.Presentation.MVCCore.Areas.Administrator.Pages.ArticleManagement
         public void OnGet(int id)
         {
             Article = _articleApplication.Get(id);
-            ArticleCategories = _categoryApplication.List()
+            ArticleCategories = _categoryApplication.List().Where(x => x.IsDeleted == false)
                 .Select(x => new SelectListItem(x.Title, x.Id.ToString())).ToList();
         }
 

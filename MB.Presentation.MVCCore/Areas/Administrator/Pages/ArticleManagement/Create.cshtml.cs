@@ -24,7 +24,7 @@ namespace MB.Presentation.MVCCore.Areas.Administrator.Pages.ArticleManagement
 
         public void OnGet()
         {
-            ArticleCategories = _articleCategoryApplication.List()
+            ArticleCategories = _articleCategoryApplication.List().Where(x => x.IsDeleted == false)
                 .Select(x => new SelectListItem(x.Title, x.Id.ToString())).ToList();
         }
 
