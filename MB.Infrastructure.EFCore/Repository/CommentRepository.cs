@@ -19,7 +19,12 @@ namespace MB.Infrastructure.EFCore.Repository
         public void Create(Comment entity)
         {
             _context.Comments.Add(entity);
-            _context.SaveChanges();
+            Save();
+        }
+
+        public Comment Get(int id)
+        {
+            return _context.Comments.FirstOrDefault(x => x.Id == id);
         }
 
         public List<CommentViewModel> GetList()
@@ -34,6 +39,11 @@ namespace MB.Infrastructure.EFCore.Repository
                 Name = x.Name,
                 Status = x.Status
             }).AsNoTracking().ToList();
+        }
+
+        public void Save()
+        {
+            _context.SaveChanges();
         }
     }
 }
