@@ -11,7 +11,6 @@ namespace MB.Infrastructure.EFCore.Mapping
             builder.ToTable("Articles");
 
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Id).IsRequired();
             builder.Property(x => x.Title).IsRequired();
             builder.Property(x => x.ShortDescription).IsRequired();
             builder.Property(x => x.IsDeleted).IsRequired();
@@ -19,6 +18,7 @@ namespace MB.Infrastructure.EFCore.Mapping
             builder.Property(x => x.CreationDate).IsRequired();
 
             builder.HasOne(x => x.ArticleCategory).WithMany(x => x.Articles).HasForeignKey(x => x.ArticleCategoryId);
+            builder.HasMany(x => x.Comments).WithOne(x => x.Article).HasForeignKey(x => x.ArticleId);
         }
     }
 }

@@ -11,7 +11,6 @@ namespace MB.Infrastructure.EFCore.Mapping
             builder.ToTable("ArticleCategories");
 
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Id).IsRequired();
             builder.Property(x => x.Title).IsRequired();
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.CreationDate).IsRequired();
