@@ -9,7 +9,7 @@ namespace MB.Domain.CommentAgg
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string Message { get; private set; }
-        public int Status { get; private set; } // New = 0 , Confirmed = 1 , Canceled = 2
+        public int Status { get; private set; }
         public DateTime CreationDate { get; private set; }
         public int ArticleId { get; private set; }
         public Article Article { get; private set; }
