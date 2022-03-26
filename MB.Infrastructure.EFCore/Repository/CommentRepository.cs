@@ -1,4 +1,9 @@
-﻿using MB.Domain.CommentAgg;
+﻿using MB.Application.Contracts.Comment;
+using MB.Domain.CommentAgg;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
@@ -15,6 +20,20 @@ namespace MB.Infrastructure.EFCore.Repository
         {
             _context.Comments.Add(entity);
             _context.SaveChanges();
+        }
+
+        public List<CommentViewModel> GetList()
+        {
+            return _context.Comments.Include(x => x.Article).Select(x => new CommentViewModel
+            {
+                Id = x.Id,
+                Article = x.Article.Title,
+                CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
+                Email = x.Email,
+                Message = x.Message,
+                Name = x.Name,
+                Status = x.Status
+            }).AsNoTracking().ToList();
         }
     }
 }

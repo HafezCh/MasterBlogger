@@ -1,4 +1,5 @@
-﻿using MB.Application.Contracts.Comment;
+﻿using System.Collections.Generic;
+using MB.Application.Contracts.Comment;
 using MB.Infrastructure.Query;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -10,12 +11,12 @@ namespace MB.Presentation.MVCCore.Pages
         public ArticleQueryView Article { get; set; }
 
         private readonly IArticleQuery _articleQuery;
-        private readonly ICommentApplication commentApplication;
+        private readonly ICommentApplication _commentApplication;
 
         public ArticleDetailsModel(IArticleQuery articleQuery, ICommentApplication commentApplication)
         {
             _articleQuery = articleQuery;
-            this.commentApplication = commentApplication;
+            _commentApplication = commentApplication;
         }
 
         public void OnGet(int id)
@@ -25,7 +26,7 @@ namespace MB.Presentation.MVCCore.Pages
 
         public RedirectToPageResult OnPost(AddComment command)
         {
-            commentApplication.Add(command);
+            _commentApplication.Add(command);
             return RedirectToPage("./ArticleDetails", new {id = command.ArticleId});
         }
     }
