@@ -17,3 +17,5 @@ D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infra
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net5.0\refint\MB.Infrastructure.Query.dll
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.pdb
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net5.0\ref\MB.Infrastructure.Query.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\01_Framework.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\01_Framework.pdb

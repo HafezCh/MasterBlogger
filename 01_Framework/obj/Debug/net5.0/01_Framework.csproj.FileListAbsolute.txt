@@ -1,0 +1,12 @@
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\bin\Debug\net5.0\01_Framework.deps.json
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\bin\Debug\net5.0\01_Framework.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\bin\Debug\net5.0\01_Framework.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\01_Framework.csproj.AssemblyReference.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\01_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\01_Framework.AssemblyInfoInputs.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\01_Framework.AssemblyInfo.cs
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\01_Framework.csproj.CoreCompileInputs.cache
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\01_Framework.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\refint\01_Framework.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\01_Framework.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\01_Framework\obj\Debug\net5.0\ref\01_Framework.dll

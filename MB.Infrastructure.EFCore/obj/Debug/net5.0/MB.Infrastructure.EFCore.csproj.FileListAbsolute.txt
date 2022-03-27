@@ -18,3 +18,5 @@ D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infra
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net5.0\ref\MB.Infrastructure.EFCore.dll
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Application.Contracts.dll
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Application.Contracts.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net5.0\01_Framework.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net5.0\01_Framework.pdb

@@ -15,3 +15,5 @@ D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Appli
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application\obj\Debug\net5.0\ref\MB.Application.dll
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application\bin\Debug\net5.0\MB.Domain.dll
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application\bin\Debug\net5.0\MB.Domain.pdb
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application\bin\Debug\net5.0\01_Framework.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Application\bin\Debug\net5.0\01_Framework.pdb

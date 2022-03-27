@@ -13,3 +13,5 @@ D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domai
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.dll
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.pdb
 D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\01_Framework.dll
+D:\👽 Programming 👽\C#\Courses\Asp.Net.Core\Practice\MasterBlogger\MB.Domain\bin\Debug\net5.0\01_Framework.pdb
