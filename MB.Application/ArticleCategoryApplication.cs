@@ -2,6 +2,7 @@
 using MB.Domain.ArticleCategoryAgg;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using MB.Domain.ArticleCategoryAgg.Services;
 
 namespace MB.Application
@@ -21,14 +22,14 @@ namespace MB.Application
         {
             var articleCategory = _articleCategoryRepository.Get(id);
             articleCategory.Activate();
-            _articleCategoryRepository.Save();
+            //_articleCategoryRepository.Save();
         }
 
         public void Add(CreateArticleCategory command)
         {
-            var articleCategory = new ArticleCategory(command.Title,_articleCategoryValidatorService);
+            var articleCategory = new ArticleCategory(command.Title, _articleCategoryValidatorService);
             _articleCategoryRepository.Create(articleCategory);
-            _articleCategoryRepository.Save();
+            //_articleCategoryRepository.Save();
         }
 
         public RenameArticleCategory Get(int id)
@@ -44,9 +45,18 @@ namespace MB.Application
         public List<ArticleCategoryViewModel> List()
         {
             var articleCategories = _articleCategoryRepository.GetAll();
-            var result = new List<ArticleCategoryViewModel>();
 
-            foreach (var articleCategory in articleCategories)
+            return articleCategories.Select(articleCategory => new ArticleCategoryViewModel
+            {
+                Id = articleCategory.Id,
+                Title = articleCategory.Title
+                    ,
+                IsDeleted = articleCategory.IsDeleted,
+                CreationDate =
+                        articleCategory.CreationDate.ToString(CultureInfo.InvariantCulture)
+            }).OrderByDescending(x => x.Id).ToList();
+
+            /*foreach (var articleCategory in articleCategories)
             {
                 result.Add(new ArticleCategoryViewModel
                 {
@@ -55,23 +65,21 @@ namespace MB.Application
                     IsDeleted = articleCategory.IsDeleted,
                     CreationDate = articleCategory.CreationDate.ToString(CultureInfo.InvariantCulture)
                 });
-            }
-
-            return result;
+            }*/
         }
 
         public void Remove(int id)
         {
             var articleCategory = _articleCategoryRepository.Get(id);
             articleCategory.Remove();
-            _articleCategoryRepository.Save();
+            //_articleCategoryRepository.Save();
         }
 
         public void Rename(RenameArticleCategory command)
         {
             var articleCategory = _articleCategoryRepository.Get(command.Id);
-            articleCategory.Rename(command.Title,_articleCategoryValidatorService);
-            _articleCategoryRepository.Save();
+            articleCategory.Rename(command.Title, _articleCategoryValidatorService);
+            //_articleCategoryRepository.Save();
         }
     }
 }
