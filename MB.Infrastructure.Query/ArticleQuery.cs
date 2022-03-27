@@ -61,7 +61,7 @@ namespace MB.Infrastructure.Query
 
             foreach (var comment in comments)
             {
-                result.Add(new CommentQueryView
+                result.Create(new CommentQueryView
                 {
                     Name = comment.Name,
                     CreationDate = comment.CreationDate.ToString(CultureInfo.InvariantCulture),
